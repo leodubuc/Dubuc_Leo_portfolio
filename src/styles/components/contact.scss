@@ -1,0 +1,20 @@
+.contact {
+    article {
+        background-color: #f5f7f9;
+        margin-bottom: 50px;
+        padding: 50px 0;
+    }
+
+    .droite {
+        text-align: right;
+    }
+
+    .gauche {
+        text-align: left;
+
+        input {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

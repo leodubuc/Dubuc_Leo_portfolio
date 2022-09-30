@@ -8,7 +8,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-secondary);
     line-height: 1.1;
     font-weight: bold;
     margin: 0;
@@ -16,19 +15,18 @@ h6 {
 }
 
 h1 {
-    font-size: var(--font-size-h1);
+    font-size: var(--font-size-title);
     line-height: 1;
-    color: var(--color-white);
+    color: var(--color-black);
+    font-family: var(--font-title);
+    text-transform: none;
 }
 
 h2 {
     font-size: var(--font-size-h2);
 
-    background-image: url(../assets/images/fond_titre.png);
-    background-position: center;
-    background-size: 75% 100%;
-    background-repeat: no-repeat;
-    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
 
     margin-bottom: 50px;
 
@@ -41,7 +39,9 @@ h2 {
 
 h3 {
     font-size: var(--font-size-h3);
-    text-align: center;
+    font-weight: 400;
+
+    text-transform: none;
 }
 
 h4 {

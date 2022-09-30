@@ -1,30 +1,34 @@
 {% include '_partials/_header.html' %}
 
-<section>
-    <h1>Contact</h1>
+<section class="contact">
+    <h2>Contact</h2>
 
-    <article>
-        <div>
-            <h2>Courriel</h2>
-            <p>leodubucd@gmail.com</p>
+    <article class="gauche">
+        <div class="wrapper">
+            <div>
+                <h3>Courriel</h3>
+                <p>leodubucd@gmail.com</p>
+            </div>
+
+            <h4>01</h4>
         </div>
-
-        <h4>01</h4>
     </article>
 
-    <article>
-        <div>
-            <h2>Téléphone</h2>
-            <p>438-378-5770</p>
-        </div>
+    <article class="droite">
+        <div class="wrapper">
+            <div>
+                <h3>Téléphone</h3>
+                <p>438-378-5770</p>
+            </div>
 
-        <h4>02</h4>
+            <h4>02</h4>
+        </div>
     </article>
 
-    <article>
-        <div>
-            <h2>CV</h2>
-            <p>Expérience Professionnelle</p>
+    <article class="gauche">
+        <div class="wrapper">
+            <h3>CV</h3>
+            <p><strong>Expérience Professionnelle</strong></p>
 
             <p>
                 Prolifik <br />
@@ -33,15 +37,16 @@
 
             <p>CLSC Juin 2022 -</p>
 
-            <a href="#">Cliquer ici pour voir le CV au complet</a>
+            <a href="#" class="button">Cliquer ici pour voir le CV au complet</a>
 
             <h4>03</h4>
         </div>
     </article>
 
-    <article>
-        <div>
-            <h2>Résaux Sociaux</h2>
+    <article class="droite">
+        <div class="wrapper">
+            <h3>Résaux Sociaux</h3>
+
             <div>
                 <svg class="icon">
                     <use xlink:href="#icon-Linkedin"></use>
@@ -56,6 +61,48 @@
         </div>
 
         <h4>04</h4>
+    </article>
+
+    <article class="gauche">
+        <div class="wrapper">
+            <h3>Me contacter</h3>
+
+            <div class="input">
+                <label class="input__label" for="name">Nom</label>
+                <input class="input__element" type="text" name="fullname" id="fullname" placeholder="ex : Léo" />
+            </div>
+
+            <div class="input">
+                <label class="input__label" for="email">Prénom</label>
+                <input class="input__element" type="email" name="email" id="email" placeholder="ex : Dubuc" />
+            </div>
+
+            <div class="input">
+                <label class="input__label" for="phone">Numéro De Téléphone</label>
+                <input
+                    class="input__element"
+                    type="tel"
+                    name="email"
+                    id="email"
+                    placeholder="(123) 456-7890"
+                    required
+                />
+            </div>
+
+            <div class="input">
+                <label class="input__label" for="mail">Courriel</label>
+                <input
+                    class="input__element"
+                    type="tel"
+                    name="email"
+                    id="email"
+                    placeholder="allo@gmail.com"
+                    required
+                />
+            </div>
+        </div>
+
+        <p>05</p>
     </article>
 </section>
 

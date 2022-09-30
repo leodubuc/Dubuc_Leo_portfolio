@@ -1,0 +1,28 @@
+.projet {
+    article {
+        display: flex;
+
+        .wrapper {
+            display: flex;
+
+            .droite {
+                text-align: right;
+                width: 75%;
+            }
+
+            .gauche {
+                text-align: left;
+                width: 75%;
+            }
+        }
+
+        div {
+            width: 50%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
