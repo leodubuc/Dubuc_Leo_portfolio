@@ -1,4 +1,4 @@
-export default class Header {
+/*export default class Header {
   constructor(element) {
     this.element = element;
     this.scrollLimit = 0.1;
@@ -61,4 +61,4 @@ export default class Header {
   onToggleNav() {
     this.html.classList.toggle('nav-is-active');
   }
-}
+}*/

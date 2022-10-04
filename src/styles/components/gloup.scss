@@ -1,0 +1,79 @@
+.gloup_hero {
+    background-image: url(../assets/images/gloup_hero.png);
+    background-size: cover;
+    background-repeat: none;
+
+    text-align: right;
+
+    padding: 145px 0;
+
+    h2 {
+        text-align: right;
+    }
+
+    a {
+        color: white;
+        text-align: center;
+    }
+}
+
+.description_gloup {
+    .wrapper {
+        text-align: center;
+        padding: 200px 0;
+
+        h3 {
+            margin-bottom: 100px;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+
+            p {
+                width: 75%;
+                margin-left: 100px;
+            }
+        }
+
+        img {
+            width: 75%;
+            height: 75%;
+        }
+    }
+}
+
+.sidenav {
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    left: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+
+    color: black;
+    background-color: #cdccc2;
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color: #e4b363;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

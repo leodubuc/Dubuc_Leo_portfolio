@@ -1,11 +1,11 @@
 {% include '_partials/_header.html' %}
 
-<section class="projet">
+<section class="projet" data-component="Scrolly">
     <div class="wrapper">
         <h2>mes projets</h2>
     </div>
 
-    <article>
+    <article data-scrolly="fromRight" data-repeat="no-repeat">
         <div>
             <img src="../assets/images/documentation.jpg" alt="" />
         </div>
@@ -20,14 +20,14 @@
                     dernières sessions. Nous devions faire la documentation et les exemples sur chaque composante.
                 </p>
 
-                <a href="#" class="button">Voir le projet</a>
-
-                <p>01</p>
+                <a href="documentation.html" class="button">Voir le projet</a>
             </div>
         </div>
+        <p class="chiffre">01</p>
     </article>
 
-    <article>
+    <article data-scrolly="fromLeft" data-repeat="no-repeat">
+        <p class="chiffre">02</p>
         <div class="wrapper">
             <div class="gauche">
                 <h3>Recette en pot</h3>
@@ -41,8 +41,6 @@
                 </p>
 
                 <a href="recette_en_pot.html" class="button">Voir le projet</a>
-
-                <p>02</p>
             </div>
         </div>
 
@@ -51,7 +49,7 @@
         </div>
     </article>
 
-    <article>
+    <article data-scrolly="fromRight" data-repeat="no-repeat">
         <div>
             <img src="../assets/images/gloup.jpg" alt="" />
         </div>
@@ -67,14 +65,14 @@
                     microbrasserie.
                 </p>
 
-                <a href="#" class="button">Voir le projet</a>
-
-                <p>03</p>
+                <a href="gloup.html" class="button">Voir le projet</a>
             </div>
         </div>
+        <p class="chiffre">03</p>
     </article>
 
-    <article>
+    <article data-scrolly="fromLeft" data-repeat="no-repeat">
+        <p class="chiffre">04</p>
         <div class="wrapper">
             <div class="gauche">
                 <h3>TIMFLIX</h3>
@@ -86,9 +84,7 @@
                     et une avis. Le design à été entièrement pensée par moi.
                 </p>
 
-                <a href="#" class="button">Voir le projet</a>
-
-                <p>04</p>
+                <a href="timflix.html" class="button">Voir le projet</a>
             </div>
         </div>
         <div>
@@ -96,7 +92,7 @@
         </div>
     </article>
 
-    <article>
+    <article data-scrolly="fromBottom">
         <div>
             <img src="../assets/images/annonce.jpg" alt="" />
         </div>
@@ -111,11 +107,10 @@
                     en respectant le thème de la serie. Les vidéos sont tous tirées de banques d’images libre de droit.
                 </p>
 
-                <a href="#" class="button">Voir le projet</a>
-
-                <p>05</p>
+                <a href="annonce.html" class="button">Voir le projet</a>
             </div>
         </div>
+        <p class="chiffre">05</p>
     </article>
 </section>
 

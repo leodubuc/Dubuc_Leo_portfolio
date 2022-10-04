@@ -4,6 +4,7 @@
 
         .wrapper {
             display: flex;
+            align-items: center;
 
             .droite {
                 text-align: right;
@@ -16,6 +17,16 @@
             }
         }
 
+        .chiffre {
+            font-size: 18.75rem;
+            margin: 0 0 -175px 0;
+
+            font-family: var(--font-secondary);
+            font-weight: 300;
+            color: white;
+            align-self: flex-end;
+        }
+
         div {
             width: 50%;
 
@@ -24,5 +35,9 @@
                 height: 100%;
             }
         }
+    }
+
+    h2 {
+        margin-top: 200px;
     }
 }

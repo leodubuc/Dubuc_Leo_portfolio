@@ -5,6 +5,12 @@ footer {
         .nav_footer {
             display: flex;
             justify-content: space-between;
+
+            div {
+                :nth-child(1) {
+                    margin-right: 25px;
+                }
+            }
         }
 
         text-align: center;

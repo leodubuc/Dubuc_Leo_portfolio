@@ -1,0 +1,19 @@
+.timflix_hero {
+    background-image: url(../assets/images/timflix_hero.jpg);
+    background-size: cover;
+    background-repeat: none;
+
+    text-align: right;
+
+    padding: 145px 0;
+
+    color: white;
+    h2 {
+        text-align: right;
+    }
+
+    svg {
+        color: white;
+        text-align: center;
+    }
+}
