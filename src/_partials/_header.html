@@ -22,17 +22,31 @@
                         <li><a href="tout_projet.html">Mes projets</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="propos.html">À propos</a></li>
+
+                        <a data-component="Modal" data-modal-id="tpl-modal" class="menu"><img src="assets/images/menu.png" alt=""></a>
                     </ul>
                 </div>
             </nav>
         </div>  
              
-        <!-- <button class="header__toggle js-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        -->
+        
+
+        <template id="tpl-modal">
+            <div class="modal" >
+                <div class="modal__scrim"></div>
+                    <div class="modal__box">
+                        <div class="modal__content">
+                            <a href="index.html">Accueil</a><br>
+                            <a href="tout_projet.html">Mes projets</a><br>
+                            <a href="contact.html">Contact</a><br>
+                            <a href="propos.html">À propos</a>
+                        </div>
+        
+                        <button class="modal__close js-close"></button>
+                    </div>
+                </div>
+            </div>
+        </template>
     </header>
 
     <body>

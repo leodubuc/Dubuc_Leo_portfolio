@@ -12,7 +12,7 @@
     </div>
 </section>
 
-<section class="grid">
+<section class="grid" data-component="Scrolly">
     <div class="wrapper">
         <h3>C'est qui lui ?</h3>
 
@@ -23,17 +23,17 @@
         </p>
 
         <div class="container">
-            <div class="zone1">
+            <div class="zone1" data-scrolly="fromRight">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum obcaecati quod similique, et quasi eos
                 asperiores, dolorum repellendus distinctio consequuntur vero minus aspernatur saepe eum error totam sunt
                 eaque repellat.
             </div>
-            <div class="zone2">
+            <div class="zone2" data-scrolly="fromLeft">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum obcaecati quod similique, et quasi eos
                 asperiores, dolorum repellendus distinctio consequuntur vero minus aspernatur saepe eum error totam sunt
                 eaque repellat.
             </div>
-            <div class="zone3">
+            <div class="zone3" data-scrolly="fromTop">
                 <p>Je programme en :</p>
                 <ul>
                     <li>HTML</li>
@@ -41,12 +41,12 @@
                     <li>Java Script</li>
                 </ul>
             </div>
-            <div class="zone4">
+            <div class="zone4" data-scrolly="fromLeft">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum obcaecati quod similique, et quasi eos
                 asperiores, dolorum repellendus distinctio consequuntur vero minus aspernatur saepe eum error totam sunt
                 eaque repellat.
             </div>
-            <div class="zone5">
+            <div class="zone5" data-scrolly="fromRight">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum obcaecati quod similique, et quasi eos
                 asperiores, dolorum repellendus distinctio consequuntur vero minus aspernatur saepe eum error totam sunt
                 eaque repellat.
@@ -64,11 +64,11 @@
         </p>
 
         <div class="content">
-            <img src="../assets/images/moi.jpg" alt="photo de moi" />
+            <img class="moi" src="assets/images/moi.jpg" alt="photo de moi" />
 
             <div>
                 <div class="nav_tel">
-                    <img src="../assets/images/fleche.png" alt="" />
+                    <img src="assets/images/fleche.png" alt="" />
 
                     <h4>Je suis :</h4>
 
@@ -76,21 +76,21 @@
                         <use xlink:href="#icon-telephone"></use>
                     </svg>
 
-                    <img src="../assets/images/video.png" alt="" />
+                    <img src="assets/images/video.png" alt="" />
                 </div>
 
-                <p>12h00</p>
+                <p class="heure">12h00</p>
 
                 <div class="texto">
                     <div>
-                        <img src="../assets/images/tete.png" alt="" />
+                        <img src="assets/images/tete.png" alt="" />
                     </div>
 
-                    <div>
-                        <p>Une personne sociale,</p>
-                        <p>Avec une bonne esprit d’équipe,</p>
-                        <p>Très fiable,</p>
-                        <p>Et dynamique (proche du TDAH)</p>
+                    <div class="message" data-component="Scrolly">
+                        <p data-scrolly="fromBottom">Une personne sociale,</p>
+                        <p data-scrolly="fromBottom">Avec une bonne esprit d’équipe,</p>
+                        <p data-scrolly="fromBottom">Très fiable,</p>
+                        <p data-scrolly="fromBottom">Et dynamique (proche du TDAH)</p>
                     </div>
                 </div>
             </div>
@@ -102,18 +102,16 @@
     <div class="wrapper">
         <h3>Un roux sauvage vient d’apparaître</h3>
         <p>
-            Lors de mon stage, mon but serait de me faire de l’expérience dans le domaine tout en découvrant comment le
-            marché du travail dans le multimédia fonctionne.
+            Lors de mon <strong>stage</strong>, mon but serait de me faire de <strong>l’expérience</strong> dans le
+            domaine tout en découvrant comment le marché du travail dans le multimédia fonctionne.
         </p>
 
-        <div class="grid">
-            <div class="video" data-component="Video" data-video-id="KdBv6QjrGiA">
-                <div class="video_media js-video">
-                    <img class="js-poster" src="assets/images/annonce.jpg" alt="La vidéo twé chose" />
-                    <svg class="icon icon--x1 icon--stroke">
-                        <use xlink:href="#icon-play"></use>
-                    </svg>
-                </div>
+        <div class="video" data-component="Video" data-video-id="KdBv6QjrGiA">
+            <div class="video_media js-video">
+                <img class="js-poster" src="assets/images/annonce.jpg" alt="La vidéo twé chose" />
+                <svg class="icon icon--x1 icon--stroke">
+                    <use xlink:href="#icon-play"></use>
+                </svg>
             </div>
         </div>
     </div>

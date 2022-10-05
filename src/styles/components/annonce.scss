@@ -1,25 +1,24 @@
-.single_hero_pot {
-    background-image: url(assets/images/hero_pot.jpg);
+.annonce_hero {
+    background-image: url(../assets/images/annonce_hero.jpg);
     background-size: cover;
     background-repeat: none;
-
-    color: white;
 
     text-align: right;
 
     padding: 145px 0;
 
+    color: white;
     h2 {
         text-align: right;
     }
 
-    a {
+    svg {
         color: white;
         text-align: center;
     }
 }
 
-.description {
+.annonce_description {
     .wrapper {
         text-align: center;
         padding: 200px 0;
@@ -67,7 +66,7 @@
     }
 }
 
-.etape {
+.annonce_etape {
     background-color: #f5f7f9;
     text-align: center;
     padding: 50px 0 0 0;
@@ -128,7 +127,7 @@
     }
 }
 
-.logiciel {
+.annonce_logiciel {
     padding: 200px 0;
 
     h3 {
@@ -182,7 +181,7 @@
     }
 }
 
-.credit {
+.annonce_credit {
     .wrapper {
         display: flex;
         flex-direction: column;

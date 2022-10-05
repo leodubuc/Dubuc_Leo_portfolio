@@ -32,6 +32,30 @@
         align-items: center;
     }
 
+    .menu {
+        display: none;
+    }
+
+    @media screen and (max-width: 980px) {
+        .menu {
+            display: flex;
+        }
+
+        li {
+            display: none;
+        }
+
+        .modal__content {
+            display: flex;
+            flex-direction: column;
+
+            a {
+                font-weight: 700;
+                font-family: var(--font-secondary);
+            }
+        }
+    }
+
     /*--header-height: 100px;
     --logo-width: 200px;
     align-items: center;

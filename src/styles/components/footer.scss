@@ -15,4 +15,17 @@ footer {
 
         text-align: center;
     }
+
+    @media screen and (max-width: 800px) {
+        .wrapper {
+            .nav_footer {
+                display: flex;
+                justify-content: center;
+
+                div {
+                    display: none;
+                }
+            }
+        }
+    }
 }

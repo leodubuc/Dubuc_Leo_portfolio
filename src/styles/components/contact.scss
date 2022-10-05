@@ -47,4 +47,14 @@
     h3 {
         margin-bottom: 50px;
     }
+
+    @media screen and (max-width: 600px) {
+        .gauche {
+            flex-direction: column;
+        }
+
+        .droite {
+            flex-direction: column;
+        }
+    }
 }
