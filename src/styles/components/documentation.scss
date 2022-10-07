@@ -1,5 +1,5 @@
 .documentation_hero {
-    background-image: url(assets/images/documentation_hero.png);
+    background-image: url(../assets/images/documentation_hero.png);
     background-size: cover;
     background-repeat: none;
 
@@ -55,9 +55,27 @@
 }
 
 .etape {
-    .wireframe_doc {
-        background-image: url(assets/images/wireframe_doc.png);
+    .creation_doc {
+        background-image: url(../assets/images/fond_doc_1.jpg);
         background-repeat: none;
         background-size: cover;
+
+        padding: 50px 10px;
+    }
+
+    .documentation_doc {
+        background-image: url(../assets/images/fond_doc_2.jpg);
+        background-repeat: none;
+        background-size: cover;
+
+        padding: 50px 10px;
+    }
+
+    .ligne_doc {
+        background-image: url(../assets/images/fond_doc_3.jpg);
+        background-repeat: none;
+        background-size: cover;
+
+        padding: 50px 10px;
     }
 }

@@ -15,9 +15,12 @@
                 'zone2 zone2 zone2 zone2 zone3 zone3 zone3 zone3 zone5 zone5 zone5 zone5'
                 'zone2 zone2 zone2 zone2 zone3 zone3 zone3 zone3 zone5 zone5 zone5 zone5';
         }
-
         .zone1 {
+            height: 100%;
+
             grid-area: zone1;
+            grid-row: 1fr 1fr;
+
             background-color: #e8e9eb;
 
             padding: 50px 70px;
@@ -26,6 +29,8 @@
         }
 
         .zone2 {
+            height: 100%;
+
             grid-area: zone2;
             background-color: #e8e9eb;
 
@@ -35,15 +40,29 @@
         }
 
         .zone3 {
+            height: 100%;
+
             grid-area: zone3;
             background-color: #e8e9eb;
 
             padding: 50px 70px;
+
+            p {
+                text-align: left;
+                margin: 0 0 50px 0;
+            }
+
+            ul {
+                margin-bottom: 75px;
+            }
         }
 
         .zone4 {
+            height: 100%;
             grid-area: zone4;
             background-color: #e8e9eb;
+
+            text-align: center;
 
             padding: 50px 70px;
 
@@ -51,6 +70,7 @@
         }
 
         .zone5 {
+            height: 100%;
             grid-area: zone5;
             background-color: #e8e9eb;
 
