@@ -88,6 +88,9 @@
 
             margin: 75px 0;
         }
+
+        img {
+        }
     }
 
     @media screen and (max-width: 980px) {
@@ -102,6 +105,9 @@
 
 .hero {
     background-color: #e8e9eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .wrapper {
         padding: 275px 0;
@@ -109,11 +115,19 @@
         h2 {
             text-align: left;
             text-transform: none;
+
+            font-weight: bold;
         }
 
         svg {
             width: 8%;
         }
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 

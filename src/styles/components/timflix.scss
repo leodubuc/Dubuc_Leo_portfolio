@@ -1,5 +1,5 @@
 .timflix_hero {
-    background-image: url(assets/images/timflix_hero.jpg);
+    background-image: url(../assets/images/timflix_hero.jpg);
     background-size: cover;
     background-repeat: none;
 
@@ -87,21 +87,21 @@
             }
 
             .wireframe_pot {
-                background-image: url(assets/images/fond_pot_1.png);
+                background-image: url(../assets/images/fond_pot_1.png);
                 background-size: cover;
 
                 padding: 50px 0 0 0;
             }
 
             .integration_pot {
-                background-image: url(assets/images/fond_pot_2.png);
+                background-image: url(../assets/images/fond_pot_2.png);
                 background-size: cover;
 
                 padding: 50px 0 0 0;
             }
 
             .code_pot {
-                background-image: url(assets/images/fond_pot_3.png);
+                background-image: url(../assets/images/fond_pot_3.png);
                 background-size: cover;
 
                 padding: 50px 0 0 0;
@@ -143,8 +143,7 @@
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        grid-template-columns: 1fr;
 
         div {
             background-color: #f5f7f9;

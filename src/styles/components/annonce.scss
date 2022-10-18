@@ -1,5 +1,5 @@
 .annonce_hero {
-    background-image: url(assets/images/annonce_hero.jpg);
+    background-image: url(../assets/images/annonce_hero.jpg);
     background-size: cover;
     background-repeat: none;
 
@@ -30,6 +30,10 @@
         div {
             display: flex;
             align-items: center;
+
+            img {
+                width: 50%;
+            }
 
             p {
                 width: 75%;
@@ -87,24 +91,24 @@
             }
 
             .wireframe_pot {
-                background-image: url(assets/images/fond_pot_1.png);
+                background-image: url(../assets/images/fond_pot_1.png);
                 background-size: cover;
 
-                padding: 50px 0 0 0;
+                padding: 50px 25px 0 25px;
             }
 
             .integration_pot {
-                background-image: url(assets/images/fond_pot_2.png);
+                background-image: url(../assets/images/fond_pot_2.png);
                 background-size: cover;
 
-                padding: 50px 0 0 0;
+                padding: 50px 25px 0 25px;
             }
 
             .code_pot {
-                background-image: url(assets/images/fond_pot_3.png);
+                background-image: url(../assets/images/fond_pot_3.png);
                 background-size: cover;
 
-                padding: 50px 0 0 0;
+                padding: 50px 25px 0 25px;
             }
 
             .chiffre {
@@ -143,8 +147,7 @@
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        grid-template-columns: 1fr;
 
         div {
             background-color: #f5f7f9;
@@ -158,8 +161,7 @@
             padding: 50px 75px;
 
             img {
-                width: 50%;
-                height: 50%;
+                width: 15%;
             }
         }
     }
@@ -217,7 +219,7 @@
     }
 }
 
-.defi {
+.annonce_defi {
     padding: 200px 0 0 0;
 
     .wrapper {

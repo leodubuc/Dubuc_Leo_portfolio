@@ -1,5 +1,5 @@
 .gloup_hero {
-    background-image: url(assets/images/gloup_hero.png);
+    background-image: url(../assets/images/gloup_hero.png);
     background-size: cover;
     background-repeat: none;
 
@@ -90,22 +90,22 @@
                 justify-content: space-between;
             }
 
-            .wireframe_pot {
-                background-image: url(assets/images/fond_pot_1.png);
+            .contenu_gloup {
+                background-image: url(../assets/images/fond_gloup_1.jpg);
                 background-size: cover;
 
                 padding: 50px 0 0 0;
             }
 
-            .integration_pot {
-                background-image: url(assets/images/fond_pot_2.png);
+            .integration_gloup {
+                background-image: url(../assets/images/fond_gloup_2.jpg);
                 background-size: cover;
 
                 padding: 50px 0 0 0;
             }
 
-            .code_pot {
-                background-image: url(assets/images/fond_pot_3.png);
+            .wireframe_gloup {
+                background-image: url(../assets/images/fond_gloup_3.jpg);
                 background-size: cover;
 
                 padding: 50px 0 0 0;
@@ -146,10 +146,6 @@
     }
 
     .wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-
         div {
             background-color: #f5f7f9;
             display: flex;
@@ -162,8 +158,8 @@
             padding: 50px 75px;
 
             img {
-                width: 50%;
-                height: 50%;
+                width: 25%;
+                height: 25%;
             }
         }
     }
